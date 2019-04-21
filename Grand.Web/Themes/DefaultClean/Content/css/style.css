@@ -43,12 +43,13 @@ dl {
 body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    color: #3f3f3f;
 }
 a {
-    color: #17a2b8;
+    color: #d19e66;
 }
 a:hover {
-    color: #00576B;
+    color: #e8c9a7;
 }
 .shadow-layer {
     position: fixed;
@@ -113,7 +114,7 @@ input {
 }
 .custom-select:hover, .custom-select:focus, .custom-select:active,
 .form-control:hover, .form-control:focus, .form-control:active {
-    border-color: #0093B5;
+    border-color: #d19366;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
 }
 .input-group-btn .btn,
@@ -233,8 +234,12 @@ body:not(.is-ready) .navUp {
     border-color: #637DB1;
 }
 .btn-info {
-    background-color: #0091b5;
-    border-color: #0091b5;
+    background-color: #d19e66;
+    border-color: #d19e66;
+}
+.btn-info:hover {
+    background-color: #e8bd8f;
+    border-color: #e8c9a7;
 }
 .btn-secondary {
 	color: #292b2c;
@@ -251,8 +256,8 @@ body:not(.is-ready) .navUp {
 }
 .btn-secondary {
     color: #fff;
-    background-color: #1D1F20;
-    border-color: #1D1F20;
+    background-color: #3f3f3f;
+    border-color: #3f3f3f;
 }
 .btn-secondary:hover {
     color: #1D1F20;
@@ -292,15 +297,15 @@ body:not(.is-ready) .navUp {
 
 .bg-info,
 .badge-info {
-    background-color: #0091b5 !important;
+    background-color: #d19366 !important;
 }
 .bg-primary,
 .badge-primary {
-    background-color: #425F99 !important
+    background-color: #885721 !important
 }
 .bg-dark,
 .badge-dark {
-    background-color: #364150 !important;
+    background-color: #3f3f3f !important;
 }
 
 /* others */
@@ -422,7 +427,7 @@ span.rotate {
     transition: opacity 0.3s ease-out;
     opacity: 0;
     z-index: 997;
-    background: #0091b5;
+    background: #d19366;
     color: #fff;
 }
 #back-to-top .mat {
@@ -1724,7 +1729,7 @@ list settings .list__item,
 }
 .list-group-item a:hover,
 .list-group-item a:focus {
-	color: #007bff;
+	color: #d19366;
 }
 .card .btn i {
 	font-size: 15px;
@@ -1793,6 +1798,10 @@ list settings .list__item,
 .home-page-product-grid p {
 	font-size: 12px;
 	padding-top: 15px;
+}
+
+.login-page {
+    margin: 120px 0 0 0;
 }
 .login-page .inputs {
 	padding-left: 3px;
@@ -2230,7 +2239,7 @@ list settings .list__item,
 
 .card {
     border: 0;
-    border-left: 2px solid #0091b5;
+    border-left: 2px solid #d19366;
     border-radius: 0;
 }
 .card-header {
@@ -3471,7 +3480,7 @@ input[type='checkbox'].checkbox-u:checked + label:after {
 #topcartlink .cart-qty,
 .wishlist-qty {
 	border-radius: 100%;
-	background: #0091b5;
+	background: #d19e66;
 	color: #fff;
 	font-size: 9px;
 	font-weight: 300;
@@ -4165,7 +4174,7 @@ footer .socicon-pinterest:hover {
     }
 	.navUp.navbar-light .navbar-nav .nav-link:focus,
 	.navUp.navbar-light .navbar-nav .nav-link:hover {
-		color: #0091b5;
+		color: #d19366;
 	}
 	.mainNav .nav-item {
 		position: relative;
@@ -4301,7 +4310,7 @@ footer .socicon-pinterest:hover {
 		width: 10%;
 	}
 	.register-block .register-button {
-		margin-top: 85px;
+		margin-top: 63px;
 	}
 	.first-level .dropdown:hover .next-level {
 		display: block;

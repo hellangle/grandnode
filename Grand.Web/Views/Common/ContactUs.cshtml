@@ -54,8 +54,12 @@
                     </div>
                     <partial name="_ContactAttributes" model="Model.ContactAttributes" />
                 <div class="buttons mt-1 mb-1">
+                    <br />
                     <input type="submit" name="send-email" class="btn btn-info contact-us-button" value="@T("ContactUs.Button")" />
                 </div>
+                <br />
+                <br />
+                <br />
             </form>
         }
         @await Component.InvokeAsync("Widget", new { widgetZone = "contactus_bottom" })

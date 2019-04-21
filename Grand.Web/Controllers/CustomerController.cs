@@ -1181,7 +1181,6 @@ namespace Grand.Web.Controllers
 
         #endregion
 
-
         #region My account / Delete account
 
         public virtual IActionResult DeleteAccount()
