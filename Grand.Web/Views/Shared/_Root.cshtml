@@ -14,6 +14,10 @@
             </ul>
         </div>
     </nav>
+    @if (IsSectionDefined("Slider"))
+    {
+        @RenderSection("Slider")
+    }
     <div class="container page-container">
         @await Component.InvokeAsync("Widget", new { widgetZone = "content_before" })
         @if (IsSectionDefined("Breadcrumb"))

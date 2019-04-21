@@ -962,8 +962,10 @@ nav .nav-item.list-inline {
 .navUp {
 	z-index: 1031;
 	height: 43px;
-	border-bottom: 1px solid #ddd;
-	background: #fff;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(101, 114, 129, 0.29);
+    background: #f6f6f6;
+    padding: 15px 0px 3px;
 }
 /*main - category nav - mainNav*/
 
@@ -1008,7 +1010,9 @@ nav .nav-item.list-inline {
 }
 .mainNav {
 	clear: both;
-	z-index: 998;
+    z-index: 998;
+    box-shadow: 0px 0px 4px 0px rgba(101, 114, 129, 0.29);
+    background: #f6f6f6;
 }
 .fly-in .mainNav {
 	z-index: 997;
@@ -3271,7 +3275,7 @@ input[type='checkbox'].checkbox-u:checked + label:after {
     font-size: 16px;
     font-weight: 300;
     padding: 5px;
-    background: #0091b5;
+    background: #d19366;
     color: #fff;
     height: 43px;
 }
@@ -3446,7 +3450,7 @@ input[type='checkbox'].checkbox-u:checked + label:after {
 }
 .flyout-cart .flyout-cart-bottom {
     padding: 15px;
-    background-color: #1D1F20;
+    background-color: #3f3f3f;
     min-width: 300px;
     width: 100%;
 }
@@ -3637,7 +3641,7 @@ footer {
     width: 100%;
     display: inline-block;
     height: auto;
-    padding: 45px 0 0 0;
+    padding: 15px 0 0 0;
 }
 footer {
 	background-color: #fff;
@@ -3646,8 +3650,8 @@ footer {
 	height: auto;
 }
 footer .footer-lower {
-	margin: 45px 0 0 0;
-	padding: 30px 0;
+	margin: 0;
+	padding: 15px 0;
 }
 footer .viewBox ul {
     flex-direction: row;
@@ -3772,7 +3776,7 @@ footer .socicon-pinterest:hover {
 }
 .header-logo img {
 	width: auto;
-    padding: 15px 0;
+    padding: 30px 0;
 }
 .add-to-cart-button {
 	display: inline-flex;
