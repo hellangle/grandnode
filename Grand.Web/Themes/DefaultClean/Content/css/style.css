@@ -237,6 +237,10 @@ body:not(.is-ready) .navUp {
     background-color: #d19e66;
     border-color: #d19e66;
 }
+.btn-outline-info {
+    border-color: #d19e66;
+    color: #3f3f3f;
+}
 .btn-info:hover {
     background-color: #e8bd8f;
     border-color: #e8c9a7;
@@ -2882,7 +2886,7 @@ table th.latest-post {
 	cursor: pointer;
 }
 .opc .active .card-grey {
-	background-color: #0091b5;
+	background-color: #d19366;
 	color: #fff;
 	cursor: pointer;
 }
@@ -3801,6 +3805,9 @@ footer .socicon-pinterest:hover {
 	min-width: 25px;
 }
 /*media*/
+.account-page, .checkout-page, .order-details-page {
+    margin-top: 50px;
+}
 
 @media screen and (max-width: 1400px) {
     .flyout-cart .count, .flyout-cart .count a {

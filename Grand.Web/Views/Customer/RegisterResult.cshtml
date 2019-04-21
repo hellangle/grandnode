@@ -18,11 +18,13 @@
     }
 }
 <div class="page registration-result-page text-xs-center">
+    <br />
+    <br />
     <h1 class="generalTitle">@T("Account.Register")</h1>
-    <section class="result">
+    <section class="result alert alert-success">
         @Model.Result
     </section>
     <div class="btn-group generalMarginSupporter">
-        <input type="button" class="btn btn-secondary register-continue-button" onclick="location.href='@continueUrl'" value="@T("Account.Register.Result.Continue")" >
+        <input type="button" class="btn btn-info register-continue-button" onclick="location.href='@continueUrl'" value="@T("Account.Register.Result.Continue")" >
     </div>
 </div>

@@ -57,7 +57,7 @@
                                                                              {<text>inactive</text>}"><span class="material-icons">keyboard_return</span><span>@T("Account.CustomerReturnRequests")</span></a>
                                                                         </li>
                                                                     }
-            @if (!Model.HideDownloadableProducts)
+            @*@if (!Model.HideDownloadableProducts)
             {
                 <li class="customer-downloadable">
                     <a href="@Url.RouteUrl("CustomerDownloadableProducts")" class="@if (Model.SelectedTab == CustomerNavigationEnum.DownloadableProducts)
@@ -74,7 +74,7 @@
                                                                                    else
                                                                                    {<text>inactive</text>}"><span class="material-icons">settings_backup_restore</span><span>@T("Account.BackInStockSubscriptions")</span></a>
                                                                             </li>
-                                                                        }
+                                                                        }*@
             @if (!Model.HideRewardPoints)
             {
                 <li class="reward-points">
